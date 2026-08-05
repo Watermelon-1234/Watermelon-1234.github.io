@@ -11,7 +11,19 @@
   <rights>All rights reserved 2026, Ioker melon</rights>
   <subtitle>A limited life, immortalized in a commit.</subtitle>
   <title>Ioker's Blog</title>
-  <updated>2026-08-05T05:20:35.838Z</updated>
+  <updated>2026-08-05T05:32:21.194Z</updated>
+  <entry>
+    <author>
+      <name>Ioker melon</name>
+    </author>
+    <id>https://iokermelon.com/2026/08/05/jailbreak-iOS-obsidian-sync/</id>
+    <link href="https://iokermelon.com/2026/08/05/jailbreak-iOS-obsidian-sync/"/>
+    <published>2026-08-05T05:32:21.194Z</published>
+    <summary>
+      <![CDATA[<iframe data-testid="embed-iframe" style="border-radius:12px"]]>
+    </summary>
+    <updated>2026-08-05T05:32:21.194Z</updated>
+  </entry>
   <entry>
     <author>
       <name>Ioker melon</name>
@@ -20,11 +32,25 @@
     <category term="test" scheme="https://iokermelon.com/tags/test/"/>
     <id>https://iokermelon.com/2026/08/05/hello-world/</id>
     <link href="https://iokermelon.com/2026/08/05/hello-world/"/>
-    <published>2026-08-05T05:20:35.838Z</published>
+    <published>2026-08-05T05:32:21.193Z</published>
     <summary>
       <![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a>]]>
     </summary>
     <title>Hello World</title>
-    <updated>2026-08-05T05:20:35.838Z</updated>
+    <updated>2026-08-05T05:32:21.193Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>Ioker melon</name>
+    </author>
+    <category term="Mac" scheme="https://iokermelon.com/categories/Mac/"/>
+    <category term="Application" scheme="https://iokermelon.com/categories/Mac/Application/"/>
+    <category term="Mac" scheme="https://iokermelon.com/tags/Mac/"/>
+    <category term="Application" scheme="https://iokermelon.com/tags/Application/"/>
+    <id>https://iokermelon.com/2026/07/28/%E9%9B%BB%E8%85%A6%E7%9B%B4%E6%92%AD%E6%96%B9%E6%A1%88-Blackhole/</id>
+    <link href="https://iokermelon.com/2026/07/28/%E9%9B%BB%E8%85%A6%E7%9B%B4%E6%92%AD%E6%96%B9%E6%A1%88-Blackhole/"/>
+    <published>2026-07-28T05:47:44.000Z</published>
+    <summary>因為 mac 在通話直播的時候如果儲存空間不夠就會一直跳掉 非常的惱人</summary>
+    <updated>2026-07-28T05:47:44.000Z</updated>
   </entry>
 </feed>
