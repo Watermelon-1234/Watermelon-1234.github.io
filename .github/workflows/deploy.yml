@@ -1,4 +1,4 @@
-name: Pagesgi
+name: deploy_page_to_gh-pages
 
 on:
   push:
