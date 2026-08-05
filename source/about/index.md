@@ -1,0 +1,36 @@
+---
+robots: index,nofollow
+menu_id: social
+title: About this Blog
+date: 2026-07-30T19:17:32+08:00
+leftbar: sociallist, recent
+rightbar: ghuser, welcome
+comment_title: 有什麼話想說的嗎？
+logo:
+  subtitle: 有什麼話想說的嗎？
+comments: true
+breadcrumb: false
+header: false
+indent: true
+---
+
+{% banner bg:/assets/default_banner.png avatar:/assets/icon.svg %}
+{% endbanner %}
+
+<br>
+
+{% quot icon:hashtag WhoamI %}
+你可以叫我 Melon、西瓜，但是主要網站上、遊戲上我的名字會是ioker。
+
+2026 年高中剛畢業，寫這段話的時候還處於不確定有沒有大學的無業遊民。
+
+興趣點主要點在資訊，主要搞的是開發。和朋友也去比過黑客松，在 vibe coding 氾濫的情況下靠著半手搓、隊友帶飛、人工 code review 拔得頭籌，不少的經驗讓我有了些在 AI 興盛的時代找到自己不會被取代的理由。
+
+資安從高一下開始接觸的，打過大大小小的CTF、也去過 AIS3 Junior，雖然很久沒練習了但是還是保有基礎的常識、當初的熱情。
+
+競程跟著國中認識的大佬打了大大小小的比賽，感謝他們帶飛、也有了些經驗與成績。
+
+{% quot icon:hashtag About_Blog %}
+考完學測了之後開始有了用 Obsidian 作筆記的習慣。整理的時候發現不少之前遇過的問題，因為可能是冷門、少見的問題，他的解決方法都散落在網路各處，就想把自己整理在一起的紀錄分享在網路、一來自己不會時間久了遺忘、而來就是奢望能幫到有需求的人了
+
+再摻雜以一些生活中的個人觀察、偶爾的文章創作、經驗雜談。因為大多不是刻意寫作、只是單純的紀錄，內容編排與品質上可能並不是上品，如有錯誤也歡迎留言指正

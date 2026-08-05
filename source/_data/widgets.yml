@@ -1,0 +1,121 @@
+starter:
+  layout: linklist
+  title: 入门向导
+  columns: 1
+  items:
+    - icon: solar:notebook-bookmark-bold-duotone
+      title: 查阅 Hexo 文档
+      url: https://xaoxuu.com/wiki/stellar/#start
+    - icon: solar:notebook-bookmark-bold-duotone
+      title: 查阅 Stellar 文档
+      url: https://xaoxuu.com/wiki/stellar/#start
+    - icon: solar:code-file-bold-duotone
+      title: 查看 Stellar 源码
+      url: https://github.com/xaoxuu/hexo-theme-stellar
+    - icon: solar:medal-ribbons-star-bold-duotone
+      title: 探访 Stellar 社区
+      url: https://xaoxuu.com/wiki/stellar/examples.html
+    - icon: solar:planet-bold-duotone
+      title: 探索 Stellar 创意玩法
+      url: https://xaoxuu.com/wiki/stellar/articles.html
+    
+
+
+sociallist:
+  layout: linklist
+  title: 社交
+  columns: 1
+  items:
+    # - icon: solar:smile-circle-bold-duotone
+    #   title: 朋友文章
+    #   url: /friends/
+    - icon: solar:chat-line-bold-duotone
+      title: 關於本站 & 留言板
+      url: /about/
+
+ghuser:
+  layout: ghuser
+  username: Watermelon-1234
+  avatar: true
+  menu: true # show menu or not
+
+toc:
+  layout: toc
+  list_number: false # 是否显示序号
+  min_depth: 1 # 建议不要低于 2 即从 H2 标签开始解析（H1标签用于文章大标题）
+  max_depth: 4 # 5 代表最多解析到 H5 标签
+  fallback: recent # Use a backup widget when toc does not exist.
+  collapse: false # true / false / auto (始终折叠/不折叠/自动折叠)
+
+recent:
+  layout: recent
+  rss: /atom.xml # npm i hexo-generator-feed
+  limit: 5 # Count of posts
+
+related:
+  layout: related
+
+tagcloud:
+  layout: tagcloud
+  title: tagcloud
+  # 标签云配置
+  min_font: 12
+  max_font: 24
+  amount: 100
+  orderby: name
+  order: 1 # 1, sac 升序；-1, desc 降序
+  color: false # 使用颜色
+  start_color:  # 开始的颜色。您可使用十六进位值（'#b700ff'），rgba（rgba(183, 0, 255, 1)），hsla（hsla(283, 100%, 50%, 1)）或 颜色关键字。此变量仅在 color 参数开启时才有用。
+  end_color:  # 结束的颜色。您可使用十六进位值（'#b700ff'），rgba（rgba(183, 0, 255, 1)），hsla（hsla(283, 100%, 50%, 1)）或 颜色关键字。此变量仅在 color 参数开启时才有用。
+  show_count: false # 显示每个标签的文章总数
+
+
+welcome:
+  layout: markdown
+  title: 'Welcome to My Blog!'
+  content: |
+    > 歡迎來到我的部落格！
+  linklist:
+    columns: 1
+    items:
+      - icon: '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>'
+        title: 關於作者
+        url: /about/
+      - icon: '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>'
+        title: 文章歸檔
+        url: /archives/
+      - icon: '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg>'
+        title: RSS 訂閱
+        url: /atom.xml
+
+wordcount:
+  layout: markdown
+  title: ' 文章資訊'
+  content: |
+    -  **本文字數**：<span id="post-word-count">計算中...</span> 字
+    -  **預計閱讀**：<span id="post-read-time">計算中...</span>
+
+    <script>
+      (function() {
+        function updateWordCount() {
+          const article = document.querySelector('article.md-text') || document.querySelector('main');
+          if (!article) return;
+
+          const text = article.innerText || article.textContent || '';
+          const count = text.replace(/\s+/g, '').length;
+          const minutes = Math.max(1, Math.ceil(count / 300));
+
+          const countEl = document.getElementById('post-word-count');
+          const timeEl = document.getElementById('post-read-time');
+
+          if (countEl) countEl.innerText = count.toLocaleString();
+          if (timeEl) timeEl.innerText = minutes + ' 分鐘';
+        }
+
+        if (document.readyState === 'loading') {
+          document.addEventListener('DOMContentLoaded', updateWordCount);
+        } else {
+          updateWordCount();
+        }
+      })();
+    </script>

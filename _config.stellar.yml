@@ -1,0 +1,191 @@
+logo:
+  avatar: '[{config.avatar}](/about/)' # you can set avatar link in _config.yml or '[https://xxx.png](/about/)'
+  title: '[{config.title}](/)' # you can set html tag like: '[<img no-lazy height="32px" src="xxx"/>](/)'
+
+  subtitle: 'A limited life, immortalized in a commit.|Welcome to my blog!'
+
+article:
+  type: tech # tech/story
+
+  # npm i hexo-related-popular-posts
+  related_posts:
+    enable: true
+    title: 相關文章
+
+  license: '本文採用 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.en) 開源協議。'
+  share: [email, link]
+
+menubar:
+  items: 
+    - id: post
+      theme: '#1BCDFC'
+      icon: book
+      title: 部落格
+      url: /
+    # todo!!!!QAQ(IDK what to put)
+    # - id: explore
+    #   theme: '#FA6400'
+    #   icon: camp
+    #   title: 探索
+    #   url: /explore/
+    - id: social
+      theme: '#F44336'
+      icon: cat
+      title: 關於
+      url: /about/
+
+# 文章搜索
+search:
+  service: local_search # local_search, todo...
+  local_search:
+    field: all # post, page, all
+    path: /search.json # 搜索文件存放位置
+    content: true # 是否搜索内容
+    skip_search: [] # 指定 path 中的内容不被搜索。
+    codeblock: true # 是否搜索代码块（需要content: true)
+
+footer:
+  social:
+    github:
+      icon: '<img src="https://gcore.jsdelivr.net/gh/cdn-x/placeholder/social/08a41b181ce68.svg"/>'
+      url: https://github.com/Watermelon-1234
+    music:
+      icon: '<img src="https://gcore.jsdelivr.net/gh/cdn-x/placeholder/social/3845874.svg"/>'
+      url: https://open.spotify.com/user/31mzlsgfzkjb5lcoxnpvdsgpio3u?si=527bfe5148944567
+  content: |
+    <span id="busuanzi_container_site_pv">本站总访问量<span id="busuanzi_value_site_pv"></span>次</span>
+    <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+######## Tag Plugins ########
+tag_plugins:
+  # {% image %}
+  image:
+    fancybox: true
+
+
+comments:
+  service: giscus
+  # giscus
+  # https://giscus.app/zh-CN
+  giscus:
+    src: https://giscus.app/client.js
+    data-repo: Watermelon-1234/blog_comment # [在此输入仓库]
+    data-repo-id: R_kgDOTnRZXg # [在此输入仓库 ID]
+    data-category: Announcements # [在此输入分类名]
+    data-category-id: DIC_kwDOTnRZXs4DCPYz
+    data-mapping: pathname
+    data-strict: 0
+    data-reactions-enabled: 1
+    data-emit-metadata: 0
+    data-input-position: top # top, bottom
+    data-theme: dark_dimmed
+    data-lang: zh-TW
+    data-loading: lazy
+    crossorigin: anonymous
+
+# 目前的情況就是我只會用到 blog, 所以先不用管topic（專欄）/wiki（文檔）的設定
+
+# 站点主结构树
+site_tree:
+  # -- 列表类页面 -- #（就是文章外的那些頁面）
+  # 主页配置
+  home: 
+    leftbar: recent
+    rightbar: ghuser, welcome
+  # 博客列表页配置
+  index_blog:
+    base_dir: blog # 只影响自动生成的页面路径
+    menu_id: post # 未在 front-matter 中指定 menu_id 时，layout 为 post 的页面默认使用这里配置的 menu_id
+    leftbar: recent # for categories/tags/archives
+    rightbar: ghuser, welcome, tagcloud
+    nav_tabs:  # 近期发布 分类 标签 专栏 归档 and ...(這邊enum的是他已經有實作的)
+      # '分類': /categories/
+      # '標籤': /bookmarks/
+      # '歸檔': /archives/
+      # '朋友文章': /friends/rss/
+  # 這邊還可以放 'index_topic' 還有 'index_wiki'
+
+  # -- 内容类页面 -- #
+  # 博客文章内页配置（就是指文章內部的設定）
+  post:
+    menu_id: post # 未在 front-matter 中指定 menu_id 时，layout 为 post 的页面默认使用这里配置的 menu_id
+    leftbar: related, recent # for pages using 'layout:post'
+    rightbar: ghuser, toc, wordcount, tagcloud
+  # 博客专栏文章内页配置
+  # topic: # not configured
+    # menu_id: post
+  # 文档内页配置
+  # wiki: # not configured
+  #   menu_id: wiki # 未在 front-matter 中指定 menu_id 时，layout 为 wiki 的页面默认使用这里配置的 menu_id
+  #   leftbar: tree, related, recent # for wiki
+  #   rightbar: ghrepo, toc
+  # 作者信息配置
+  author: 
+    base_dir: author # 只影响自动生成的页面路径
+    menu_id: post
+    leftbar: recent, timeline
+    rightbar: ghuser, welcome, timeline
+  # 错误页配置
+  error_page:
+    menu_id: post
+    '404': '/404.html'
+    leftbar: recent
+    rightbar: ghuser, welcome
+  # 其它自定义页面配置 layout: page
+  page: 
+    leftbar: recent
+    rightbar: ghuser, toc, tagcloud
+
+
+# lazyload
+# 基础依赖
+dependencies:
+  lazyload:
+    js: https://gcore.jsdelivr.net/npm/vanilla-lazyload@19.1/dist/lazyload.min.js
+    transition: fade # blur, fade
+
+# 默认打开
+loading:
+  loading: Loading...
+  error: Loading Failed! Please refresh the page.
+
+
+style:
+  site:
+    background-image: 'linear-gradient(-225deg, #7085B6 0%, #87A7D9 50%, #DEF3F8 100%)'
+  # gradient: # https://webgradients.com/
+  #   # site: 'linear-gradient(-225deg, #473B7B 0%, #3584A7 51%, #30D2BE 100%)'
+  #   # 搜尋列或其他元件漸層（可依需求同步修改或調整）
+  #   search: 'linear-gradient(to bottom right, #180b38 0%, #4d0023 100%)'
+  
+inject:
+  head:
+    - |
+      <style>
+        /* 讓 menubar 容器寬度 100% 並使用 flex 佈局 */
+        .nav-area nav.menu {
+          display: flex !important;
+          width: 100% !important;
+          gap: 8px; /* 按鈕之間的間距，可依喜好微調 (例如 6px 或 8px) */
+        }
+
+        /* 讓每個 nav-item 平均瓜分寬度 */
+        .nav-area nav.menu .nav-item {
+          flex: 1 !important;
+          display: flex !important;
+          justify-content: center !important;
+          align-items: center !important;
+          margin: 0 !important; /* 避免原樣式 margin 影響長度計算 */
+        }
+      </style>
+    - <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@7.4.47/css/materialdesignicons.min.css">
+    - <link rel="stylesheet" href="/css/admonition.css">
+symbols_count_time: # counting time and words
+  symbols: true
+  time: true
+  total_symbols: true
+  total_time: true
+  exclude_codeblock: false
+  awl: 2 # CN=2 EN=5 RU=6
+  wpm: 275 #Slow ≈ 200 Normal ≈ 275 Fast ≈ 350
+  suffix: "mins."
