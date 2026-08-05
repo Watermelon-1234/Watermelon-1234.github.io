@@ -1,0 +1,45 @@
+name: Pages
+
+on:
+  push:
+    branches:
+      - main # 當 main 分支有 push 時觸發
+  workflow_dispatch:
+
+permissions:
+  contents: write # 必須設定寫入權限，才能將檔案推送到目標分支
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          submodules: recursive
+
+      - name: Use Node.js 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Cache NPM dependencies
+        uses: actions/cache@v4
+        with:
+          path: node_modules
+          key: ${{ runner.OS }}-npm-cache
+          restore-keys: |
+            ${{ runner.OS }}-npm-cache
+
+      - name: Install Dependencies
+        run: npm install
+
+      - name: Build
+        run: npm run build
+
+      - name: Deploy to Target Branch
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public       # 要發布的資料夾
+          publish_branch: gh-pages    # 填寫你想要部署到的目標分支名稱（如 gh-pages）
