@@ -58,4 +58,18 @@
     <title>好看的主題們</title>
     <updated>2026-07-28T05:47:44.000Z</updated>
   </entry>
+  <entry>
+    <author>
+      <name>Ioker melon</name>
+    </author>
+    <category term="blog" scheme="https://iokermelon.com/categories/blog/"/>
+    <category term="hexo" scheme="https://iokermelon.com/tags/hexo/"/>
+    <category term="blog" scheme="https://iokermelon.com/tags/blog/"/>
+    <id>https://iokermelon.com/2026/07/28/%E7%94%A8%20staller%20%E4%B8%BB%E9%A1%8C%E7%BF%BB%E6%96%B0%20blog/</id>
+    <link href="https://iokermelon.com/2026/07/28/%E7%94%A8%20staller%20%E4%B8%BB%E9%A1%8C%E7%BF%BB%E6%96%B0%20blog/"/>
+    <published>2026-07-28T05:47:44.000Z</published>
+    <summary>把部落格換成好看的主題，還有新增額外的語法轉換腳本</summary>
+    <title>用 staller 主題翻新 blog</title>
+    <updated>2026-07-28T05:47:44.000Z</updated>
+  </entry>
 </feed>
