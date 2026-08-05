@@ -11,7 +11,7 @@ hexo.extend.filter.register('before_post_render', function (data) {
 
     // 1. 純圖片格式：![[filename.webp]]
     if (!params) {
-      return `{% image posts_assets/${cleanPath} %}`;
+      return `{% image /images/${cleanPath} %}`;
     }
 
     const cleanParams = params.trim();
@@ -24,14 +24,14 @@ hexo.extend.filter.register('before_post_render', function (data) {
       const width = /^\d+$/.test(rawWidth) ? `${rawWidth}px` : rawWidth;
       const height = /^\d+$/.test(rawHeight) ? `${rawHeight}px` : rawHeight;
 
-      return `{% image posts_assets/${cleanPath} width:${width} height:${height} %}`;
+      return `{% image /images/${cleanPath} width:${width} height:${height} %}`;
     } 
     
     // 3. 僅單一寬度格式：![[filename.webp|200]] 或 ![[filename.webp|200px]]
     else {
       const width = /^\d+$/.test(cleanParams) ? `${cleanParams}px` : cleanParams;
 
-      return `{% image posts_assets/${cleanPath} width:${width} %}`;
+      return `{% image /images/${cleanPath} width:${width} %}`;
     }
   });
 
