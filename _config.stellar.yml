@@ -52,9 +52,9 @@ footer:
     music:
       icon: '<img src="https://gcore.jsdelivr.net/gh/cdn-x/placeholder/social/3845874.svg"/>'
       url: https://open.spotify.com/user/31mzlsgfzkjb5lcoxnpvdsgpio3u?si=527bfe5148944567
-  content: |
-    <span id="busuanzi_container_site_pv">本站总访问量<span id="busuanzi_value_site_pv"></span>次</span>
-    <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+  # content: |
+  #   <span id="busuanzi_container_site_pv">本站总访问量<span id="busuanzi_value_site_pv"></span>次</span>
+  #   <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 
 ######## Tag Plugins ########
 tag_plugins:
