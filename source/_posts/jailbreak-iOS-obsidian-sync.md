@@ -1,32 +1,29 @@
 ---
+title: 用越獄 iOS 手機作 Obsidian 同步
 share: true
-links:
-  mdlinks: false
-  convert: true
-  internals: false
-  nonShared: false
-  unlink: false
-embed:
-  send: true
-  remove: keep
-  char: ->
-attachment:
-  send: true
-  folder:
-dataview: true
-hardBreak: false
-includeLinks:
-truerepo:
-  owner: Watermelon-1234
-  repo: Watermelon-1234.github.io
-  branch: main
-  autoclean: false
-copylink:
-  base: https://Watermelon-1234.github.io.github.io/Watermelon-1234.github.io
+modified: 2026/08/05T14:49:40+08:00
+date: 2026-07-28 21:47:44+08:00
+comments: true
+tags:
+  - ios
+  - jailbreak
+  - obsidian
+categories:
+  - ios
+  - jailbreak
+  - obsidian
+cover: https://i0.wp.com/cubiclenate.com/wp-content/uploads/2025/05/Obsidian-Thumbnail.jpg?w=1200&ssl=1
+poster:
+  headline: 用越獄 iOS 手機作 Obsidian 同步
+description: 用越獄 iOS 手機作 Obsidian 同步v
+mermaid: true
+katex: true
+mathjax: true
+banner: https://i0.wp.com/cubiclenate.com/wp-content/uploads/2025/05/Obsidian-Thumbnail.jpg?w=1200&ssl=1
 ---
+
 <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/2qGURS7y8zM7STkxOLgnWO?utm_source=generator&si=e0486dce52fd4772" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
-略寫版的放在這裡：[[手機同步-跟working copy 鬥智鬥勇|手機同步-跟working copy 鬥智鬥勇]]
 # 動機
 因為我讀分科的時候都把筆記放在 obsidian 然後是用 fit（基於 GitHub）同步的，但是在 iOS 上就有問題（iPad 還沒有），GitHub issue 上是建議降級用舊版 但是舊版也會有問題，所以都越獄了我就乾脆寫 shell script 開搞
 
