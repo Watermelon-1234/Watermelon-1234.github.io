@@ -31,6 +31,23 @@
     <author>
       <name>Ioker melon</name>
     </author>
+    <category term="ios" scheme="https://iokermelon.com/categories/ios/"/>
+    <category term="jailbreak" scheme="https://iokermelon.com/categories/ios/jailbreak/"/>
+    <category term="obsidian" scheme="https://iokermelon.com/categories/ios/jailbreak/obsidian/"/>
+    <category term="ios" scheme="https://iokermelon.com/tags/ios/"/>
+    <category term="jailbreak" scheme="https://iokermelon.com/tags/jailbreak/"/>
+    <category term="obsidian" scheme="https://iokermelon.com/tags/obsidian/"/>
+    <id>https://iokermelon.com/2026/07/28/jailbreak-iOS-obsidian-sync/</id>
+    <link href="https://iokermelon.com/2026/07/28/jailbreak-iOS-obsidian-sync/"/>
+    <published>2026-07-28T05:47:44.000Z</published>
+    <summary>用越獄 iOS 手機作 Obsidian 同步v</summary>
+    <title>用越獄 iOS 手機作 Obsidian 同步</title>
+    <updated>2026-07-28T05:47:44.000Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>Ioker melon</name>
+    </author>
     <category term="blog" scheme="https://iokermelon.com/categories/blog/"/>
     <category term="hexo" scheme="https://iokermelon.com/tags/hexo/"/>
     <category term="blog" scheme="https://iokermelon.com/tags/blog/"/>
@@ -53,23 +70,6 @@
     <published>2026-07-28T05:47:44.000Z</published>
     <summary>把部落格換成好看的主題，還有新增額外的語法轉換腳本</summary>
     <title>用 staller 主題翻新 blog</title>
-    <updated>2026-07-28T05:47:44.000Z</updated>
-  </entry>
-  <entry>
-    <author>
-      <name>Ioker melon</name>
-    </author>
-    <category term="ios" scheme="https://iokermelon.com/categories/ios/"/>
-    <category term="jailbreak" scheme="https://iokermelon.com/categories/ios/jailbreak/"/>
-    <category term="obsidian" scheme="https://iokermelon.com/categories/ios/jailbreak/obsidian/"/>
-    <category term="ios" scheme="https://iokermelon.com/tags/ios/"/>
-    <category term="jailbreak" scheme="https://iokermelon.com/tags/jailbreak/"/>
-    <category term="obsidian" scheme="https://iokermelon.com/tags/obsidian/"/>
-    <id>https://iokermelon.com/2026/07/28/jailbreak-iOS-obsidian-sync/</id>
-    <link href="https://iokermelon.com/2026/07/28/jailbreak-iOS-obsidian-sync/"/>
-    <published>2026-07-28T05:47:44.000Z</published>
-    <summary>用越獄 iOS 手機作 Obsidian 同步v</summary>
-    <title>用越獄 iOS 手機作 Obsidian 同步</title>
     <updated>2026-07-28T05:47:44.000Z</updated>
   </entry>
 </feed>
