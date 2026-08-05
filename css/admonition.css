@@ -1,0 +1,282 @@
+/* ==================== 深色模式專用配色 (Stellar 深藍灰風格) ==================== */
+:root, [data-theme="dark"], html[theme="dark"] {
+  /* 基礎容器樣式 */
+  --admonition-bg: rgba(255, 255, 255, 0.03);
+  --admonition-title-bg: rgba(255, 255, 255, 0.05);
+  --admonition-title-hover-bg: rgba(255, 255, 255, 0.08);
+  --admonition-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
+  --admonition-padding: 0.75rem 1.1rem;
+  --admonition-border-width: 4px;
+  --admonition-border-radius: 12px;
+  --admonition-border-color: rgba(255, 255, 255, 0.08);
+
+  /* 高對比亮色系 (適應深色背景) */
+  --color-anote: #38bdf8;
+  --color-anote-bg: rgba(56, 189, 248, 0.12);
+  --color-anote-text: #7dd3fc;
+
+  --color-info: #22d3ee;
+  --color-info-bg: rgba(34, 211, 238, 0.12);
+  --color-info-text: #67e8f9;
+
+  --color-warning: #fbbf24;
+  --color-warning-bg: rgba(251, 191, 36, 0.12);
+  --color-warning-text: #fde047;
+
+  --color-error: #f87171;
+  --color-error-bg: rgba(248, 113, 113, 0.12);
+  --color-error-text: #fca5a5;
+
+  --color-tip: #34d399;
+  --color-tip-bg: rgba(52, 211, 153, 0.12);
+  --color-tip-text: #6ee7b7;
+
+  --color-success: #4ade80;
+  --color-success-bg: rgba(74, 222, 128, 0.12);
+  --color-success-text: #86efac;
+
+  --color-question: #c084fc;
+  --color-question-bg: rgba(192, 132, 252, 0.12);
+  --color-question-text: #e9d5ff;
+
+  --color-example: #818cf8;
+  --color-example-bg: rgba(129, 140, 248, 0.12);
+  --color-example-text: #c7d2fe;
+
+  --color-quote: #94a3b8;
+  --color-quote-bg: rgba(148, 163, 184, 0.12);
+  --color-quote-text: #cbd5e1;
+}
+
+/* ==================== 基礎組件樣式 ==================== */
+.admonition {
+  margin: 1.2em 0;
+  padding: 0;
+  border: 1px solid var(--admonition-border-color);
+  border-left-width: var(--admonition-border-width);
+  border-radius: var(--admonition-border-radius);
+  background-color: var(--admonition-bg);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  box-shadow: var(--admonition-shadow);
+  overflow: hidden;
+  page-break-inside: avoid;
+  color: #e2e8f0;
+}
+
+.admonition-title {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  padding: 0.6rem 1rem 0.6rem 0.85rem;
+  font-size: 0.98em;
+  background-color: var(--admonition-title-bg);
+  border-top-left-radius: var(--admonition-border-radius);
+  border-top-right-radius: var(--admonition-border-radius);
+  margin: 0 !important;
+  letter-spacing: 0.02em;
+}
+
+.admonition-icon {
+  font-size: 1.25em;
+  margin-right: 0.55rem;
+  opacity: 0.9;
+  display: inline-flex;
+  align-items: center;
+}
+
+/* 內容區域 */
+.admonition > .admonition-content {
+  padding: var(--admonition-padding);
+  margin: 0;
+  font-size: 0.95em;
+  line-height: 1.6;
+}
+
+.admonition > *:not(.admonition-title):not(.admonition-collapsible):not(.admonition-content) {
+  padding: var(--admonition-padding);
+  margin: 0;
+}
+
+/* ==================== 折疊功能區塊 ==================== */
+.admonition-collapsible-wrapper {
+  padding: 0;
+  overflow: visible;
+}
+
+.admonition > .admonition-collapsible {
+  margin: 0 !important;
+  width: 100%;
+}
+
+.admonition-collapsible > summary.admonition-title {
+  cursor: pointer;
+  list-style: none;
+  user-select: none;
+  position: relative;
+  transition: background-color 0.2s ease;
+  padding-right: 2.5rem;
+}
+
+.admonition-collapsible > summary::-webkit-details-marker,
+.admonition-collapsible > summary::marker {
+  display: none;
+}
+
+.admonition-collapsible > summary.admonition-title:hover {
+  background-color: var(--admonition-title-hover-bg);
+}
+
+.admonition-title-text {
+  flex: 1;
+}
+
+.admonition-chevron {
+  position: absolute;
+  right: 0.85rem;
+  font-size: 1.2em;
+  transition: transform 0.25s ease;
+  opacity: 0.7;
+}
+
+.admonition-collapsible[open] > summary .admonition-chevron {
+  transform: rotate(180deg);
+}
+
+/* 折疊動畫 */
+.admonition-collapsible .admonition-content {
+  padding: var(--admonition-padding);
+  animation: slideDown 0.2s ease-out;
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* 嵌套區塊邊距 */
+.admonition .admonition {
+  margin: 0.8rem 0;
+}
+
+/* ==================== 類型別色彩配置 ==================== */
+
+/* Note (anote) */
+.admonition.anote {
+  border-left-color: var(--color-anote);
+}
+.admonition.anote > .admonition-title,
+.admonition.anote > .admonition-collapsible > summary.admonition-title {
+  background-color: var(--color-anote-bg);
+  color: var(--color-anote-text);
+}
+
+/* Info / Todo */
+.admonition.info,
+.admonition.todo {
+  border-left-color: var(--color-info);
+}
+.admonition.info > .admonition-title,
+.admonition.todo > .admonition-title,
+.admonition.info > .admonition-collapsible > summary.admonition-title,
+.admonition.todo > .admonition-collapsible > summary.admonition-title {
+  background-color: var(--color-info-bg);
+  color: var(--color-info-text);
+}
+
+/* Warning / Attention / Caution */
+.admonition.warning,
+.admonition.attention,
+.admonition.caution {
+  border-left-color: var(--color-warning);
+}
+.admonition.warning > .admonition-title,
+.admonition.attention > .admonition-title,
+.admonition.caution > .admonition-title,
+.admonition.warning > .admonition-collapsible > summary.admonition-title,
+.admonition.attention > .admonition-collapsible > summary.admonition-title,
+.admonition.caution > .admonition-collapsible > summary.admonition-title {
+  background-color: var(--color-warning-bg);
+  color: var(--color-warning-text);
+}
+
+/* Error / Failure / Fail / Danger / Bug / Missing */
+.admonition.failure,
+.admonition.missing,
+.admonition.fail,
+.admonition.error,
+.admonition.danger,
+.admonition.bug {
+  border-left-color: var(--color-error);
+}
+.admonition.failure > .admonition-title,
+.admonition.missing > .admonition-title,
+.admonition.fail > .admonition-title,
+.admonition.error > .admonition-title,
+.admonition.danger > .admonition-title,
+.admonition.bug > .admonition-title,
+.admonition.failure > .admonition-collapsible > summary.admonition-title,
+.admonition.missing > .admonition-collapsible > summary.admonition-title,
+.admonition.fail > .admonition-collapsible > summary.admonition-title,
+.admonition.error > .admonition-collapsible > summary.admonition-title,
+.admonition.danger > .admonition-collapsible > summary.admonition-title,
+.admonition.bug > .admonition-collapsible > summary.admonition-title {
+  background-color: var(--color-error-bg);
+  color: var(--color-error-text);
+}
+
+/* Tip */
+.admonition.tip {
+  border-left-color: var(--color-tip);
+}
+.admonition.tip > .admonition-title,
+.admonition.tip > .admonition-collapsible > summary.admonition-title {
+  background-color: var(--color-tip-bg);
+  color: var(--color-tip-text);
+}
+
+/* Success */
+.admonition.success {
+  border-left-color: var(--color-success);
+}
+.admonition.success > .admonition-title,
+.admonition.success > .admonition-collapsible > summary.admonition-title {
+  background-color: var(--color-success-bg);
+  color: var(--color-success-text);
+}
+
+/* Question */
+.admonition.question {
+  border-left-color: var(--color-question);
+}
+.admonition.question > .admonition-title,
+.admonition.question > .admonition-collapsible > summary.admonition-title {
+  background-color: var(--color-question-bg);
+  color: var(--color-question-text);
+}
+
+/* Example */
+.admonition.example {
+  border-left-color: var(--color-example);
+}
+.admonition.example > .admonition-title,
+.admonition.example > .admonition-collapsible > summary.admonition-title {
+  background-color: var(--color-example-bg);
+  color: var(--color-example-text);
+}
+
+/* Quote */
+.admonition.quote {
+  border-left-color: var(--color-quote);
+}
+.admonition.quote > .admonition-title,
+.admonition.quote > .admonition-collapsible > summary.admonition-title {
+  background-color: var(--color-quote-bg);
+  color: var(--color-quote-text);
+}
