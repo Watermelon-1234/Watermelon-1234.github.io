@@ -1,7 +1,7 @@
 ---
 title: 用越獄 iOS 手機作 Obsidian 同步
 share: true
-modified: 2026/08/05T14:55:22+08:00
+modified: 2026/08/05T15:00:47+08:00
 date: 2026-07-28 21:47:44+08:00
 comments: true
 tags:
@@ -109,7 +109,7 @@ aspectRatio: "287.890625"
 ![[jailbreak-iOS-obsidian-sync-1784616578813.webp|284]]
 ![[jailbreak-iOS-obsidian-sync-1785147720499.webp|279]]
  
-> [!example]  完整程式碼
+> [!example]-  完整程式碼
 > ⚠️注意：此程式主要是由 AI（Gemini）生成後我檢查的，所以請謹慎使用
 > 尖括弧 `<>` 內的內容請改成自己的資料
 > ```
