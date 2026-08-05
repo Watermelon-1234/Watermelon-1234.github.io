@@ -11,19 +11,7 @@
   <rights>All rights reserved 2026, Ioker melon</rights>
   <subtitle>A limited life, immortalized in a commit.</subtitle>
   <title>Ioker's Blog</title>
-  <updated>2026-08-05T06:44:32.880Z</updated>
-  <entry>
-    <author>
-      <name>Ioker melon</name>
-    </author>
-    <id>https://iokermelon.com/2026/08/05/jailbreak-iOS-obsidian-sync/</id>
-    <link href="https://iokermelon.com/2026/08/05/jailbreak-iOS-obsidian-sync/"/>
-    <published>2026-08-05T06:44:32.880Z</published>
-    <summary>
-      <![CDATA[<iframe data-testid="embed-iframe" style="border-radius:12px"]]>
-    </summary>
-    <updated>2026-08-05T06:44:32.880Z</updated>
-  </entry>
+  <updated>2026-07-28T05:47:44.000Z</updated>
   <entry>
     <author>
       <name>Ioker melon</name>
@@ -37,6 +25,23 @@
     <published>2026-07-28T05:47:44.000Z</published>
     <summary>改進mac直播時的直播語音配置部分，增加自定性</summary>
     <title>Mac 電腦直播方案-Blackhole</title>
+    <updated>2026-07-28T05:47:44.000Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>Ioker melon</name>
+    </author>
+    <category term="ios" scheme="https://iokermelon.com/categories/ios/"/>
+    <category term="jailbreak" scheme="https://iokermelon.com/categories/ios/jailbreak/"/>
+    <category term="obsidian" scheme="https://iokermelon.com/categories/ios/jailbreak/obsidian/"/>
+    <category term="ios" scheme="https://iokermelon.com/tags/ios/"/>
+    <category term="jailbreak" scheme="https://iokermelon.com/tags/jailbreak/"/>
+    <category term="obsidian" scheme="https://iokermelon.com/tags/obsidian/"/>
+    <id>https://iokermelon.com/2026/07/28/jailbreak-iOS-obsidian-sync/</id>
+    <link href="https://iokermelon.com/2026/07/28/jailbreak-iOS-obsidian-sync/"/>
+    <published>2026-07-28T05:47:44.000Z</published>
+    <summary>用越獄 iOS 手機作 Obsidian 同步v</summary>
+    <title>用越獄 iOS 手機作 Obsidian 同步</title>
     <updated>2026-07-28T05:47:44.000Z</updated>
   </entry>
 </feed>

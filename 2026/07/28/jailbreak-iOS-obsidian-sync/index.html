@@ -17,26 +17,29 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#000">
   <meta name="theme-color" content="#f9fafb">
-  <title>Ioker's Blog</title>
+  <title>用越獄 iOS 手機作 Obsidian 同步 - Ioker's Blog</title>
 
   
-    <meta name="description" content="略寫版的放在這裡：[[手機同步-跟working copy 鬥智鬥勇|手機同步-跟working copy 鬥智鬥勇]] 動機因為我讀分科的時候都把筆記放在 obsidian 然後是用 fit（基於 GitHub）同步的，但是在 iOS 上就有問題（iPad 還沒有），GitHub issue 上是建議降級用舊版 但是舊版也會有問題，所以都越獄了我就乾脆寫 shell script 開搞 踩坑">
+    <meta name="description" content="用越獄 iOS 手機作 Obsidian 同步v">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Ioker&#39;s Blog">
-<meta property="og:url" content="https://iokermelon.com/2026/08/05/jailbreak-iOS-obsidian-sync/">
+<meta property="og:title" content="用越獄 iOS 手機作 Obsidian 同步">
+<meta property="og:url" content="https://iokermelon.com/2026/07/28/jailbreak-iOS-obsidian-sync/">
 <meta property="og:site_name" content="Ioker&#39;s Blog">
-<meta property="og:description" content="略寫版的放在這裡：[[手機同步-跟working copy 鬥智鬥勇|手機同步-跟working copy 鬥智鬥勇]] 動機因為我讀分科的時候都把筆記放在 obsidian 然後是用 fit（基於 GitHub）同步的，但是在 iOS 上就有問題（iPad 還沒有），GitHub issue 上是建議降級用舊版 但是舊版也會有問題，所以都越獄了我就乾脆寫 shell script 開搞 踩坑">
+<meta property="og:description" content="用越獄 iOS 手機作 Obsidian 同步v">
 <meta property="og:locale" content="zh_TW">
 <meta property="og:image" content="https://iokermelon.com/assets/avatar.svg">
-<meta property="article:published_time" content="2026-08-05T06:44:32.880Z">
-<meta property="article:modified_time" content="2026-08-05T06:44:32.880Z">
+<meta property="article:published_time" content="2026-07-28T05:47:44.000Z">
+<meta property="article:modified_time" content="2026-07-28T05:47:44.000Z">
 <meta property="article:author" content="Ioker melon">
-<meta name="twitter:card" content="summary">
+<meta property="article:tag" content="ios">
+<meta property="article:tag" content="jailbreak">
+<meta property="article:tag" content="obsidian">
+<meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="https://iokermelon.com/assets/avatar.svg">
   
   
   
-  
+  <meta name="keywords" content="ios,jailbreak,obsidian">
 
   <!-- feed -->
   
@@ -52,7 +55,7 @@
 
   
 
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Ioker melon","sameAs":[],"image":"/assets/avatar.svg"},"dateCreated":"2026-08-05T14:44:32+08:00","dateModified":"2026-08-05T14:44:32+08:00","datePublished":"2026-08-05T14:44:32+08:00","description":"","headline":"","mainEntityOfPage":{"@type":"WebPage","@id":"https://iokermelon.com/2026/08/05/jailbreak-iOS-obsidian-sync/"},"publisher":{"@type":"Organization","name":"Ioker melon","sameAs":[],"image":"/assets/avatar.svg","logo":{"@type":"ImageObject","url":"/assets/avatar.svg"}},"url":"https://iokermelon.com/2026/08/05/jailbreak-iOS-obsidian-sync/","image":[]}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Ioker melon","sameAs":[],"image":"/assets/avatar.svg"},"dateCreated":"2026-07-28T13:47:44+08:00","dateModified":"2026-07-28T13:47:44+08:00","datePublished":"2026-07-28T13:47:44+08:00","description":"","headline":"用越獄 iOS 手機作 Obsidian 同步","mainEntityOfPage":{"@type":"WebPage","@id":"https://iokermelon.com/2026/07/28/jailbreak-iOS-obsidian-sync/"},"publisher":{"@type":"Organization","name":"Ioker melon","sameAs":[],"image":"/assets/avatar.svg","logo":{"@type":"ImageObject","url":"/assets/avatar.svg"}},"url":"https://iokermelon.com/2026/07/28/jailbreak-iOS-obsidian-sync/","keywords":"ios, jailbreak, obsidian","thumbnailUrl":"https://i0.wp.com/cubiclenate.com/wp-content/uploads/2025/05/Obsidian-Thumbnail.jpg?w=1200&ssl=1","image":1}</script>
   <style>
   /* 讓 menubar 容器寬度 100% 並使用 flex 佈局 */
   .nav-area nav.menu {
@@ -88,7 +91,7 @@
 
 
 
-<widget class="widget-wrapper recent post-list"><div class="widget-header dis-select"><span class="name">最近更新</span><a class="cap-action" id="rss" title="Subscribe" href="/atom.xml"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="currentColor" d="M5 21q-.825 0-1.412-.587T3 19q0-.825.588-1.412T5 17q.825 0 1.413.588T7 19q0 .825-.587 1.413T5 21m13.5 0q-.65 0-1.088-.475T16.9 19.4q-.275-2.425-1.312-4.537T12.9 11.1q-1.65-1.65-3.762-2.687T4.6 7.1q-.65-.075-1.125-.512T3 5.5q0-.65.45-1.062t1.075-.363q3.075.275 5.763 1.563t4.737 3.337q2.05 2.05 3.338 4.738t1.562 5.762q.05.625-.363 1.075T18.5 21m-6 0q-.625 0-1.075-.437T10.85 19.5q-.225-1.225-.787-2.262T8.65 15.35q-.85-.85-1.888-1.412T4.5 13.15q-.625-.125-1.062-.575T3 11.5q0-.65.45-1.075t1.075-.325q1.825.25 3.413 1.063t2.837 2.062q1.25 1.25 2.063 2.838t1.062 3.412q.1.625-.325 1.075T12.5 21"/></svg></a></div><div class="widget-body fs14"><a class="item title" href="/2026/07/28/Mac%20%E9%9B%BB%E8%85%A6%E7%9B%B4%E6%92%AD%E6%96%B9%E6%A1%88-Blackhole/"><span class="title">Mac 電腦直播方案-Blackhole</span></a></div></widget>
+<widget class="widget-wrapper recent post-list"><div class="widget-header dis-select"><span class="name">最近更新</span><a class="cap-action" id="rss" title="Subscribe" href="/atom.xml"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="currentColor" d="M5 21q-.825 0-1.412-.587T3 19q0-.825.588-1.412T5 17q.825 0 1.413.588T7 19q0 .825-.587 1.413T5 21m13.5 0q-.65 0-1.088-.475T16.9 19.4q-.275-2.425-1.312-4.537T12.9 11.1q-1.65-1.65-3.762-2.687T4.6 7.1q-.65-.075-1.125-.512T3 5.5q0-.65.45-1.062t1.075-.363q3.075.275 5.763 1.563t4.737 3.337q2.05 2.05 3.338 4.738t1.562 5.762q.05.625-.363 1.075T18.5 21m-6 0q-.625 0-1.075-.437T10.85 19.5q-.225-1.225-.787-2.262T8.65 15.35q-.85-.85-1.888-1.412T4.5 13.15q-.625-.125-1.062-.575T3 11.5q0-.65.45-1.075t1.075-.325q1.825.25 3.413 1.063t2.837 2.062q1.25 1.25 2.063 2.838t1.062 3.412q.1.625-.325 1.075T12.5 21"/></svg></a></div><div class="widget-body fs14"><a class="item title" href="/2026/07/28/Mac%20%E9%9B%BB%E8%85%A6%E7%9B%B4%E6%92%AD%E6%96%B9%E6%A1%88-Blackhole/"><span class="title">Mac 電腦直播方案-Blackhole</span></a><a class="item title" href="/2026/07/28/jailbreak-iOS-obsidian-sync/"><span class="title">用越獄 iOS 手機作 Obsidian 同步</span></a></div></widget>
 </div>
 <footer class="footer dis-select"><div class="social-wrap"><a class="social" href="https://github.com/Watermelon-1234" target="_blank" rel="external nofollow noopener noreferrer"><img src="https://gcore.jsdelivr.net/gh/cdn-x/placeholder/social/08a41b181ce68.svg"/></a><a class="social" href="https://open.spotify.com/user/31mzlsgfzkjb5lcoxnpvdsgpio3u?si=527bfe5148944567" target="_blank" rel="external nofollow noopener noreferrer"><img src="https://gcore.jsdelivr.net/gh/cdn-x/placeholder/social/3845874.svg"/></a></div></footer>
 </div></aside><div class="l_main" id="main">
@@ -97,16 +100,23 @@
 
 
 
-<div class="article banner top">
+<div class="article banner top"><img class="lazy bg" data-src="https://i0.wp.com/cubiclenate.com/wp-content/uploads/2025/05/Obsidian-Thumbnail.jpg?w=1200&ssl=1">
   <div class="content">
     <div class="top bread-nav footnote"><div class="left"><div class="flex-row" id="breadcrumb"><a class="cap breadcrumb" href="/">首頁</a>
-<span class="sep"></span><a class="cap breadcrumb" href="/">網誌</a></div>
-<div class="flex-row" id="post-meta"><span class="text created">發布於：<time datetime="2026-08-05T06:44:32.880Z">2026-08-05</time></span><span class="sep updated"></span><span class="text updated">更新於：<time datetime="2026-08-05T06:44:32.880Z">2026-08-05</time></span></div></div></div>
+<span class="sep"></span><a class="cap breadcrumb" href="/">網誌</a><span class="sep"></span><a class="cap breadcrumb-link" href="/categories/ios/">ios</a> <span class="sep"></span> <a class="cap breadcrumb-link" href="/categories/ios/jailbreak/">jailbreak</a> <span class="sep"></span> <a class="cap breadcrumb-link" href="/categories/ios/jailbreak/obsidian/">obsidian</a></div>
+<div class="flex-row" id="post-meta"><span class="text created">發布於：<time datetime="2026-07-28T05:47:44.000Z">2026-07-28</time></span><span class="sep updated"></span><span class="text updated">更新於：<time datetime="2026-07-28T05:47:44.000Z">2026-07-28</time></span></div></div></div>
+    
+    <div class="bottom only-title">
+      
+      <div class="text-area">
+        <h1 class="text title"><span>用越獄 iOS 手機作 Obsidian 同步</span></h1>
+        
+      </div>
+    </div>
     
   </div>
   </div><article class="md-text content"><iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/2qGURS7y8zM7STkxOLgnWO?utm_source=generator&si=e0486dce52fd4772" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
-<p>略寫版的放在這裡：[[手機同步-跟working copy 鬥智鬥勇|手機同步-跟working copy 鬥智鬥勇]]</p>
 <h1 id="動機"><a href="#動機" class="headerlink" title="動機"></a>動機</h1><p>因為我讀分科的時候都把筆記放在 obsidian 然後是用 fit（基於 GitHub）同步的，但是在 iOS 上就有問題（iPad 還沒有），GitHub issue 上是建議降級用舊版 但是舊版也會有問題，所以都越獄了我就乾脆寫 shell script 開搞</p>
 <h1 id="踩坑"><a href="#踩坑" class="headerlink" title="踩坑"></a>踩坑</h1><ul>
 <li>fit 預設應該是不會備份 <code> .obsidian</code>  但大概是因為我之前直接用 <code>git</code> force pull 了，所以手機因為一些 plugins 不兼容然後就會一直重新 indexing，跟掛了沒兩樣</li>
@@ -173,21 +183,16 @@
     <section id="share">
       <div class="header"><span>分享文章</span></div>
       <div class="body">
-        <div class="link"><input class="copy-area" readonly="true" id="copy-link" value="https://iokermelon.com/2026/08/05/jailbreak-iOS-obsidian-sync/" /></div>
-        <div class="social-wrap dis-select"><a class="social share-item email" href="mailto:?subject= - Ioker's Blog&amp;body=https://iokermelon.com/2026/08/05/jailbreak-iOS-obsidian-sync/"><img  src="https://gcore.jsdelivr.net/gh/cdn-x/placeholder@1.0.12/social/a1b00e20f425d.svg" /></a><a class="social share-item link" onclick="util.copy(&quot;copy-link&quot;, &quot;複製成功&quot;)"><img  src="https://gcore.jsdelivr.net/gh/cdn-x/placeholder@1.0.12/social/8411ed322ced6.svg" /></a></div>
+        <div class="link"><input class="copy-area" readonly="true" id="copy-link" value="https://iokermelon.com/2026/07/28/jailbreak-iOS-obsidian-sync/" /></div>
+        <div class="social-wrap dis-select"><a class="social share-item email" href="mailto:?subject=用越獄 iOS 手機作 Obsidian 同步 - Ioker's Blog&amp;body=https://iokermelon.com/2026/07/28/jailbreak-iOS-obsidian-sync/"><img  src="https://gcore.jsdelivr.net/gh/cdn-x/placeholder@1.0.12/social/a1b00e20f425d.svg" /></a><a class="social share-item link" onclick="util.copy(&quot;copy-link&quot;, &quot;複製成功&quot;)"><img  src="https://gcore.jsdelivr.net/gh/cdn-x/placeholder@1.0.12/social/8411ed322ced6.svg" /></a></div>
         
       </div>
     </section>
     </div>
 
-<div class="related-wrap" id="read-next"><section class="body"><div class="item" id="prev"></div><div class="item" id="next"><div class="note">較早文章</div><a href="/2026/07/28/Mac%20%E9%9B%BB%E8%85%A6%E7%9B%B4%E6%92%AD%E6%96%B9%E6%A1%88-Blackhole/">Mac 電腦直播方案-Blackhole</a></div></section></div>
+<div class="related-wrap" id="read-next"><section class="body"><div class="item" id="prev"><div class="note">較新文章</div><a href="/2026/07/28/Mac%20%E9%9B%BB%E8%85%A6%E7%9B%B4%E6%92%AD%E6%96%B9%E6%A1%88-Blackhole/">Mac 電腦直播方案-Blackhole</a></div><div class="item" id="next"></div></section></div>
 
-<div class="related-wrap" id="related-posts">
-    <section class='header'>
-      <div class='title cap theme'>相關文章</div>
-    </section>
-    <section class='body'>
-    <div class="related-posts"><a class="item" href="/2026/07/28/Mac 電腦直播方案-Blackhole/" title="Mac 電腦直播方案-Blackhole"><span class="title">Mac 電腦直播方案-Blackhole</span><span class="excerpt">改進mac直播時的直播語音配置部分，增加自定性</span></a></div></section></div>
+<div class="related-wrap" id="related-posts"></div>
 
 
   <div class="related-wrap md-text" id="comments">
@@ -247,7 +252,7 @@
 </script>
 </div></widget>
 
-<widget class="widget-wrapper tagcloud"><div class="widget-header dis-select"><span class="name">tagcloud</span></div><div class="widget-body fs14"><a href="/tags/Application/" style="font-size: 12px;" class="tag -0">Application</a> <a href="/tags/Mac/" style="font-size: 12px;" class="tag -0">Mac</a></div></widget>
+<widget class="widget-wrapper tagcloud"><div class="widget-header dis-select"><span class="name">tagcloud</span></div><div class="widget-body fs14"><a href="/tags/Application/" style="font-size: 12px;" class="tag -0">Application</a> <a href="/tags/Mac/" style="font-size: 12px;" class="tag -0">Mac</a> <a href="/tags/ios/" style="font-size: 12px;" class="tag -0">ios</a> <a href="/tags/jailbreak/" style="font-size: 12px;" class="tag -0">jailbreak</a> <a href="/tags/obsidian/" style="font-size: 12px;" class="tag -0">obsidian</a></div></widget>
 </div></aside><div class='float-panel'>
   <button type='button' style='display:none' class='laptop-only rightbar-toggle mobile' onclick='sidebar.rightbar()'>
     <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6h11m-11 6h11m-11 6h11M4 6h1v4m-1 0h2m0 8H4c0-1 2-2 2-3s-1-1.5-2-1"/></svg>
@@ -967,7 +972,59 @@
     }
   });
 </script>
+<link rel="stylesheet" href="https://gcore.jsdelivr.net/npm/katex@0.16/dist/katex.min.css" integrity="sha384-vKruj+a13U8yHIkAyGgK1J3ArTLzrFGBbBc0tDp4ad/EyewESeXE/Iv67Aj8gKZ0" crossorigin="anonymous">
+
+<script id="MathJax-script" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js?config=TeX-AMS-MML_HTMLorMML" async></script>
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+  MathJax.Hub.Config({
+    tex2jax: {
+      skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+    }
+  });
+  MathJax.Hub.Queue(function() {
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i=0; i < all.length; i += 1) {
+      all[i].SourceElement().parentNode.className += ' has-jax';
+    }
+  });
+</script>
+
+<script defer type="text/javascript" src="https://gcore.jsdelivr.net/npm/mermaid@v9/dist/mermaid.min.js"></script>
 <script>
+  window.addEventListener('DOMContentLoaded', (event) => {
+    var mermaid_config = {
+      startOnLoad: true,
+      theme:
+        "auto" == "auto" &&
+          window.matchMedia("(prefers-color-scheme: dark)").matches
+          ? "dark"
+          : "neutral",
+      logLevel: 3,
+      themeVariables: {
+        darkMode: true
+      },
+      flowchart: {
+        useMaxWidth: false,
+        htmlLabels: true,
+        curve: "linear"
+      },
+      gantt: {
+        axisFormat: "%Y/%m/%d"
+      },
+      sequence: {
+        actorMargin: 50
+      }
+    }
+    mermaid.initialize(mermaid_config);
+  });
+</script><script>
   document.addEventListener('DOMContentLoaded', function () {
     window.codeElements = document.querySelectorAll('.code');
     if (window.codeElements.length > 0) {
