@@ -1,8 +1,8 @@
 ---
 title: 解決 iOS Captive Network 登入問題
 share: true
-modified: 2026/08/05T14:49:51+08:00
-date: 2026-07-28 21:47:44+08:00
+modified: 2026/08/11T07:30:53+08:00
+date:
 comments: true
 tags:
   - ios
@@ -11,7 +11,7 @@ tags:
 categories:
   - ios
   - internet
-cover: /images
+cover: /images/解決 iOS Captive Network 登入問題-1785208644279.webp
 poster:
   headline: 解決 iOS Captive Network 登入問題
 description: 提出 ios 自動連線導致 Captive Network 沒網路的問題的解決方法

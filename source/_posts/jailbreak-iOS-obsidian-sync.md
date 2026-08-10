@@ -1,8 +1,8 @@
 ---
 title: 用越獄 iOS 手機作 Obsidian 同步
 share: true
-modified: 2026/08/05T15:00:47+08:00
-date: 2026-07-28 21:47:44+08:00
+modified: 2026/08/11T07:21:38+08:00
+date: 2026/07/21T13:13:47+08:00
 comments: true
 tags:
   - ios
