@@ -16,6 +16,20 @@
     <author>
       <name>Ioker melon</name>
     </author>
+    <category term="blog" scheme="https://iokermelon.com/categories/blog/"/>
+    <category term="hexo" scheme="https://iokermelon.com/tags/hexo/"/>
+    <category term="blog" scheme="https://iokermelon.com/tags/blog/"/>
+    <id>https://iokermelon.com/2026/07/28/nice%20looking%20hexo%20theme/</id>
+    <link href="https://iokermelon.com/2026/07/28/nice%20looking%20hexo%20theme/"/>
+    <published>2026-07-28T05:47:44.000Z</published>
+    <summary>好看的主題們</summary>
+    <title>好看的主題們</title>
+    <updated>2026-07-28T05:47:44.000Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>Ioker melon</name>
+    </author>
     <category term="Mac" scheme="https://iokermelon.com/categories/Mac/"/>
     <category term="Application" scheme="https://iokermelon.com/categories/Mac/Application/"/>
     <category term="Mac" scheme="https://iokermelon.com/tags/Mac/"/>
@@ -25,6 +39,22 @@
     <published>2026-07-28T05:47:44.000Z</published>
     <summary>改進mac直播時的直播語音配置部分，增加自定性</summary>
     <title>Mac 電腦直播方案-Blackhole</title>
+    <updated>2026-07-28T05:47:44.000Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>Ioker melon</name>
+    </author>
+    <category term="ios" scheme="https://iokermelon.com/categories/ios/"/>
+    <category term="internet" scheme="https://iokermelon.com/categories/ios/internet/"/>
+    <category term="ios" scheme="https://iokermelon.com/tags/ios/"/>
+    <category term="internet" scheme="https://iokermelon.com/tags/internet/"/>
+    <category term="WiFi" scheme="https://iokermelon.com/tags/WiFi/"/>
+    <id>https://iokermelon.com/2026/07/28/%E8%A7%A3%E6%B1%BA%20iOS%20Captive%20Network%20%E7%99%BB%E5%85%A5%E5%95%8F%E9%A1%8C/</id>
+    <link href="https://iokermelon.com/2026/07/28/%E8%A7%A3%E6%B1%BA%20iOS%20Captive%20Network%20%E7%99%BB%E5%85%A5%E5%95%8F%E9%A1%8C/"/>
+    <published>2026-07-28T05:47:44.000Z</published>
+    <summary>提出 ios 自動連線導致 Captive Network 沒網路的問題的解決方法</summary>
+    <title>解決 iOS Captive Network 登入問題</title>
     <updated>2026-07-28T05:47:44.000Z</updated>
   </entry>
   <entry>
@@ -42,20 +72,6 @@
     <published>2026-07-28T05:47:44.000Z</published>
     <summary>用越獄 iOS 手機作 Obsidian 同步v</summary>
     <title>用越獄 iOS 手機作 Obsidian 同步</title>
-    <updated>2026-07-28T05:47:44.000Z</updated>
-  </entry>
-  <entry>
-    <author>
-      <name>Ioker melon</name>
-    </author>
-    <category term="blog" scheme="https://iokermelon.com/categories/blog/"/>
-    <category term="hexo" scheme="https://iokermelon.com/tags/hexo/"/>
-    <category term="blog" scheme="https://iokermelon.com/tags/blog/"/>
-    <id>https://iokermelon.com/2026/07/28/nice%20looking%20hexo%20theme/</id>
-    <link href="https://iokermelon.com/2026/07/28/nice%20looking%20hexo%20theme/"/>
-    <published>2026-07-28T05:47:44.000Z</published>
-    <summary>好看的主題們</summary>
-    <title>好看的主題們</title>
     <updated>2026-07-28T05:47:44.000Z</updated>
   </entry>
   <entry>
