@@ -11,21 +11,7 @@
   <rights>All rights reserved 2026, Ioker melon</rights>
   <subtitle>A limited life, immortalized in a commit.</subtitle>
   <title>Ioker's Blog</title>
-  <updated>2026-07-28T05:47:44.000Z</updated>
-  <entry>
-    <author>
-      <name>Ioker melon</name>
-    </author>
-    <category term="blog" scheme="https://iokermelon.com/categories/blog/"/>
-    <category term="hexo" scheme="https://iokermelon.com/tags/hexo/"/>
-    <category term="blog" scheme="https://iokermelon.com/tags/blog/"/>
-    <id>https://iokermelon.com/2026/07/28/nice%20looking%20hexo%20theme/</id>
-    <link href="https://iokermelon.com/2026/07/28/nice%20looking%20hexo%20theme/"/>
-    <published>2026-07-28T05:47:44.000Z</published>
-    <summary>好看的主題們</summary>
-    <title>好看的主題們</title>
-    <updated>2026-07-28T05:47:44.000Z</updated>
-  </entry>
+  <updated>2026-08-10T23:34:07.316Z</updated>
   <entry>
     <author>
       <name>Ioker melon</name>
@@ -34,28 +20,12 @@
     <category term="Application" scheme="https://iokermelon.com/categories/Mac/Application/"/>
     <category term="Mac" scheme="https://iokermelon.com/tags/Mac/"/>
     <category term="Application" scheme="https://iokermelon.com/tags/Application/"/>
-    <id>https://iokermelon.com/2026/07/28/Mac%20%E9%9B%BB%E8%85%A6%E7%9B%B4%E6%92%AD%E6%96%B9%E6%A1%88-Blackhole/</id>
-    <link href="https://iokermelon.com/2026/07/28/Mac%20%E9%9B%BB%E8%85%A6%E7%9B%B4%E6%92%AD%E6%96%B9%E6%A1%88-Blackhole/"/>
-    <published>2026-07-28T05:47:44.000Z</published>
+    <id>https://iokermelon.com/2026/08/10/Mac%20%E9%9B%BB%E8%85%A6%E7%9B%B4%E6%92%AD%E6%96%B9%E6%A1%88-Blackhole/</id>
+    <link href="https://iokermelon.com/2026/08/10/Mac%20%E9%9B%BB%E8%85%A6%E7%9B%B4%E6%92%AD%E6%96%B9%E6%A1%88-Blackhole/"/>
+    <published>2026-08-10T23:34:07.316Z</published>
     <summary>改進mac直播時的直播語音配置部分，增加自定性</summary>
     <title>Mac 電腦直播方案-Blackhole</title>
-    <updated>2026-07-28T05:47:44.000Z</updated>
-  </entry>
-  <entry>
-    <author>
-      <name>Ioker melon</name>
-    </author>
-    <category term="ios" scheme="https://iokermelon.com/categories/ios/"/>
-    <category term="internet" scheme="https://iokermelon.com/categories/ios/internet/"/>
-    <category term="ios" scheme="https://iokermelon.com/tags/ios/"/>
-    <category term="internet" scheme="https://iokermelon.com/tags/internet/"/>
-    <category term="WiFi" scheme="https://iokermelon.com/tags/WiFi/"/>
-    <id>https://iokermelon.com/2026/07/28/%E8%A7%A3%E6%B1%BA%20iOS%20Captive%20Network%20%E7%99%BB%E5%85%A5%E5%95%8F%E9%A1%8C/</id>
-    <link href="https://iokermelon.com/2026/07/28/%E8%A7%A3%E6%B1%BA%20iOS%20Captive%20Network%20%E7%99%BB%E5%85%A5%E5%95%8F%E9%A1%8C/"/>
-    <published>2026-07-28T05:47:44.000Z</published>
-    <summary>提出 ios 自動連線導致 Captive Network 沒網路的問題的解決方法</summary>
-    <title>解決 iOS Captive Network 登入問題</title>
-    <updated>2026-07-28T05:47:44.000Z</updated>
+    <updated>2026-08-10T23:34:07.316Z</updated>
   </entry>
   <entry>
     <author>
@@ -67,12 +37,28 @@
     <category term="ios" scheme="https://iokermelon.com/tags/ios/"/>
     <category term="jailbreak" scheme="https://iokermelon.com/tags/jailbreak/"/>
     <category term="obsidian" scheme="https://iokermelon.com/tags/obsidian/"/>
-    <id>https://iokermelon.com/2026/07/28/jailbreak-iOS-obsidian-sync/</id>
-    <link href="https://iokermelon.com/2026/07/28/jailbreak-iOS-obsidian-sync/"/>
-    <published>2026-07-28T05:47:44.000Z</published>
+    <id>https://iokermelon.com/2026/08/10/jailbreak-iOS-obsidian-sync/</id>
+    <link href="https://iokermelon.com/2026/08/10/jailbreak-iOS-obsidian-sync/"/>
+    <published>2026-08-10T23:34:07.316Z</published>
     <summary>用越獄 iOS 手機作 Obsidian 同步v</summary>
     <title>用越獄 iOS 手機作 Obsidian 同步</title>
-    <updated>2026-07-28T05:47:44.000Z</updated>
+    <updated>2026-08-10T23:34:07.316Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>Ioker melon</name>
+    </author>
+    <category term="ios" scheme="https://iokermelon.com/categories/ios/"/>
+    <category term="internet" scheme="https://iokermelon.com/categories/ios/internet/"/>
+    <category term="ios" scheme="https://iokermelon.com/tags/ios/"/>
+    <category term="internet" scheme="https://iokermelon.com/tags/internet/"/>
+    <category term="WiFi" scheme="https://iokermelon.com/tags/WiFi/"/>
+    <id>https://iokermelon.com/2026/08/10/%E8%A7%A3%E6%B1%BA%20iOS%20Captive%20Network%20%E7%99%BB%E5%85%A5%E5%95%8F%E9%A1%8C/</id>
+    <link href="https://iokermelon.com/2026/08/10/%E8%A7%A3%E6%B1%BA%20iOS%20Captive%20Network%20%E7%99%BB%E5%85%A5%E5%95%8F%E9%A1%8C/"/>
+    <published>2026-08-10T23:34:07.316Z</published>
+    <summary>提出 ios 自動連線導致 Captive Network 沒網路的問題的解決方法</summary>
+    <title>解決 iOS Captive Network 登入問題</title>
+    <updated>2026-08-10T23:34:07.316Z</updated>
   </entry>
   <entry>
     <author>
@@ -83,9 +69,85 @@
     <category term="blog" scheme="https://iokermelon.com/tags/blog/"/>
     <id>https://iokermelon.com/2026/07/28/%E7%94%A8%20staller%20%E4%B8%BB%E9%A1%8C%E7%BF%BB%E6%96%B0%20blog/</id>
     <link href="https://iokermelon.com/2026/07/28/%E7%94%A8%20staller%20%E4%B8%BB%E9%A1%8C%E7%BF%BB%E6%96%B0%20blog/"/>
-    <published>2026-07-28T05:47:44.000Z</published>
+    <published>2026-07-28T02:48:44.000Z</published>
     <summary>把部落格換成好看的主題，還有新增額外的語法轉換腳本</summary>
     <title>用 staller 主題翻新 blog</title>
-    <updated>2026-07-28T05:47:44.000Z</updated>
+    <updated>2026-07-28T02:48:44.000Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>Ioker melon</name>
+    </author>
+    <category term="blog" scheme="https://iokermelon.com/categories/blog/"/>
+    <category term="hexo" scheme="https://iokermelon.com/tags/hexo/"/>
+    <category term="blog" scheme="https://iokermelon.com/tags/blog/"/>
+    <id>https://iokermelon.com/2026/07/28/nice%20looking%20hexo%20theme/</id>
+    <link href="https://iokermelon.com/2026/07/28/nice%20looking%20hexo%20theme/"/>
+    <published>2026-07-28T02:30:44.000Z</published>
+    <summary>好看的主題們</summary>
+    <title>好看的主題們</title>
+    <updated>2026-07-28T02:30:44.000Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>Ioker melon</name>
+    </author>
+    <category term="AI" scheme="https://iokermelon.com/categories/AI/"/>
+    <category term="AI" scheme="https://iokermelon.com/tags/AI/"/>
+    <category term="agnet" scheme="https://iokermelon.com/tags/agnet/"/>
+    <id>https://iokermelon.com/2026/05/04/openclaw-setup/</id>
+    <link href="https://iokermelon.com/2026/05/04/openclaw-setup/"/>
+    <published>2026-05-04T07:58:44.000Z</published>
+    <summary>Openclaw 基礎設置（可能過時了）</summary>
+    <title>Openclaw 基礎設置（可能過時了）</title>
+    <updated>2026-05-04T07:58:44.000Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>Ioker melon</name>
+    </author>
+    <category term="ios" scheme="https://iokermelon.com/categories/ios/"/>
+    <category term="jailbreak" scheme="https://iokermelon.com/categories/ios/jailbreak/"/>
+    <category term="ios" scheme="https://iokermelon.com/tags/ios/"/>
+    <category term="jailbreak" scheme="https://iokermelon.com/tags/jailbreak/"/>
+    <category term="livecontainer" scheme="https://iokermelon.com/tags/livecontainer/"/>
+    <category term="tweak" scheme="https://iokermelon.com/tags/tweak/"/>
+    <category term="sideload" scheme="https://iokermelon.com/tags/sideload/"/>
+    <category term="iphone" scheme="https://iokermelon.com/tags/iphone/"/>
+    <category term="ipad" scheme="https://iokermelon.com/tags/ipad/"/>
+    <category term="ipa" scheme="https://iokermelon.com/tags/ipa/"/>
+    <category term="dopamine" scheme="https://iokermelon.com/tags/dopamine/"/>
+    <category term="sileo" scheme="https://iokermelon.com/tags/sileo/"/>
+    <id>https://iokermelon.com/2026/01/25/%E8%B6%8A%E7%8D%84iphone%2013%E4%B8%A6%E4%BD%9C%E7%82%BA%E4%B8%BB%E5%8A%9B%E6%A9%9F%E7%9A%84%E5%88%9D%E9%AB%94%E9%A9%97Untitled/</id>
+    <link href="https://iokermelon.com/2026/01/25/%E8%B6%8A%E7%8D%84iphone%2013%E4%B8%A6%E4%BD%9C%E7%82%BA%E4%B8%BB%E5%8A%9B%E6%A9%9F%E7%9A%84%E5%88%9D%E9%AB%94%E9%A9%97Untitled/"/>
+    <published>2026-01-25T13:25:20.000Z</published>
+    <summary>越獄 iphone 13 並作為主力機</summary>
+    <title>越獄 iphone 13 並作為主力機的初體驗</title>
+    <updated>2026-01-25T13:25:20.000Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>Ioker melon</name>
+    </author>
+    <category term="ios" scheme="https://iokermelon.com/categories/ios/"/>
+    <category term="jailbreak" scheme="https://iokermelon.com/categories/ios/jailbreak/"/>
+    <category term="ios" scheme="https://iokermelon.com/tags/ios/"/>
+    <category term="livecontainer" scheme="https://iokermelon.com/tags/livecontainer/"/>
+    <category term="tweak" scheme="https://iokermelon.com/tags/tweak/"/>
+    <category term="instagram" scheme="https://iokermelon.com/tags/instagram/"/>
+    <category term="altstore" scheme="https://iokermelon.com/tags/altstore/"/>
+    <category term="sideload" scheme="https://iokermelon.com/tags/sideload/"/>
+    <category term="sidestore" scheme="https://iokermelon.com/tags/sidestore/"/>
+    <category term="iphone" scheme="https://iokermelon.com/tags/iphone/"/>
+    <category term="ipad" scheme="https://iokermelon.com/tags/ipad/"/>
+    <category term="ipa" scheme="https://iokermelon.com/tags/ipa/"/>
+    <category term="android" scheme="https://iokermelon.com/tags/android/"/>
+    <category term="apk" scheme="https://iokermelon.com/tags/apk/"/>
+    <id>https://iokermelon.com/2025/10/07/%E7%94%A8%20livecontainer%20%E5%B9%AB%E8%87%AA%E5%B7%B1%E6%88%92%20reels%20%E6%88%90%E7%99%AE/</id>
+    <link href="https://iokermelon.com/2025/10/07/%E7%94%A8%20livecontainer%20%E5%B9%AB%E8%87%AA%E5%B7%B1%E6%88%92%20reels%20%E6%88%90%E7%99%AE/"/>
+    <published>2025-10-07T05:25:20.000Z</published>
+    <summary>一直滑 reels 真的很浪費時間QAQ</summary>
+    <title>用 livecontainer 幫自己戒 reels 成癮</title>
+    <updated>2025-10-07T05:25:20.000Z</updated>
   </entry>
 </feed>
