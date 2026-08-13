@@ -1,7 +1,7 @@
 ---
 title: 解決 iOS Captive Network 登入問題
 share: true
-modified: 2026/08/11T07:30:53+08:00
+modified: 2026/08/13T12:01:34+08:00
 date:
 comments: true
 tags:
@@ -19,6 +19,7 @@ mermaid: true
 katex: true
 mathjax: true
 banner: /images/解決 iOS Captive Network 登入問題-1785208644279.webp
+abbrlink: ios-captive-network-issue
 ---
 
 <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/5GwXSedc16CCVaGFMJpbEa?utm_source=generator&si=70545eadb31e4b50" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
