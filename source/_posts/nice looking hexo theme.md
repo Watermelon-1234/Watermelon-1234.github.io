@@ -1,6 +1,6 @@
 ---
 created: 2026-07-28T18:30:26+08:00
-modified: 2026/08/11T07:20:48+08:00
+modified: 2026/08/13T12:00:24+08:00
 title: 好看的主題們
 share: true
 date: 2026-07-28 18:30:44+08:00
@@ -18,6 +18,7 @@ mermaid: true
 katex: true
 mathjax: true
 banner: /images/翻新 blog-1785914870060.webp
+abbrlink: hexo-themes
 ---
 
 # Source
