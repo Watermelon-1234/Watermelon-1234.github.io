@@ -18,7 +18,7 @@ comment: true
 date: 2026-01-25 21:25:20
 author: melon
 share: true
-modified: 2026/08/11T07:28:52+08:00
+modified: 2026/08/13T12:01:10+08:00
 comments: true
 cover: /images/越獄iphone 13並作為主力機的初體驗-1785215951513.webp
 poster:
@@ -28,6 +28,7 @@ mermaid: true
 katex: true
 mathjax: true
 banner: /images/越獄iphone 13並作為主力機的初體驗-1785215951513.webp
+abbrlink: i13-jailbreak
 ---
 
 <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/1iywVk6Xx1XmJwd0rExYI3?utm_source=generator&si=48fe8597f8ae400d" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>

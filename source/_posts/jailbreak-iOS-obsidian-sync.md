@@ -1,7 +1,7 @@
 ---
 title: 用越獄 iOS 手機作 Obsidian 同步
 share: true
-modified: 2026/08/11T07:21:38+08:00
+modified: 2026/08/13T12:01:51+08:00
 date: 2026/07/21T13:13:47+08:00
 comments: true
 tags:
@@ -20,6 +20,7 @@ mermaid: true
 katex: true
 mathjax: true
 banner: https://i0.wp.com/cubiclenate.com/wp-content/uploads/2025/05/Obsidian-Thumbnail.jpg?w=1200&ssl=1
+abbrlink: jailbreak-iOS-obsidian-sync
 ---
 
 <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/2qGURS7y8zM7STkxOLgnWO?utm_source=generator&si=e0486dce52fd4772" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>

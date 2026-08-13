@@ -1,5 +1,5 @@
 ---
-modified: 2026/08/11T07:19:51+08:00
+modified: 2026/08/13T12:02:25+08:00
 title: Openclaw 基礎設置（可能過時了）
 share: true
 date: 2026-05-04 23:58:44+08:00
@@ -17,6 +17,7 @@ mermaid: true
 katex: true
 mathjax: true
 banner: /images/openclaw-setup-1786403355031.webp
+abbrlink: openclaw-setup
 ---
 
 
