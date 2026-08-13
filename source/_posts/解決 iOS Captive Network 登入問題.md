@@ -1,8 +1,8 @@
 ---
 title: 解決 iOS Captive Network 登入問題
 share: true
-modified: 2026/08/13T12:01:34+08:00
-date:
+modified: 2026/08/13T12:16:46+08:00
+date: 2026-07-28 10:07:34+08:00
 comments: true
 tags:
   - ios
