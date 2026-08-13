@@ -1,6 +1,6 @@
 ---
 created: 2026-07-28T18:48:28+08:00
-modified: 2026/08/11T07:21:05+08:00
+modified: 2026/08/13T12:00:08+08:00
 title: 用 staller 主題翻新 blog
 share: true
 date: 2026-07-28 18:48:44+08:00
@@ -18,6 +18,7 @@ mermaid: true
 katex: true
 mathjax: true
 banner: /images/翻新 blog-1785914870060.webp
+abbrlink: staller-hexo-blog
 ---
 
 <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/0q54zr8Y0BQbpKKTbVbXH6?utm_source=generator&si=33bc25a44c044ffe" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
@@ -709,6 +710,25 @@ aspectRatio: "50"
 ![[翻新 blog-1785872610990.webp|700x345]]
 
 ---
+
+## 優化連結
+參考資料：
+```embed
+title: "优化 Hexo 网站的永久链接格式"
+image: "https://blog.dejavu.moe/posts/hexo-permalinks/cover.webp"
+description: "调整 Hexo 的文章和页面的永久链接格式，让站点链接结构更整洁且有利于 SEO"
+url: "https://blog.dejavu.moe/posts/hexo-permalinks/"
+favicon: ""
+aspectRatio: "66.66666666666666"
+```
+
+我是選擇用插件，感覺配置比較無腦
+-  `hexo-abbrlink` 是用 crc 算法（一種類似 Hash 的校驗算法）
+	- 缺點是有篇數上限（但是 `crc16` 上限 65535 篇文章想到達也不是一件容易事情）
+- `hexo-abbrlink` 是用數字編號
+	- 但編號我擔心會有順序時間等混亂的情形，而且長度會不規律
+因此我自己是使用 `hexo-abbrlink`
+可以照參考資料裡面的設定算法跟進位數（`alg` & `rep`）
 
 # Obsidian
 ## Enveloppe
