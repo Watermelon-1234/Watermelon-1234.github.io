@@ -11,7 +11,21 @@
   <rights>All rights reserved 2026, Ioker melon</rights>
   <subtitle>A limited life, immortalized in a commit.</subtitle>
   <title>Ioker's Blog</title>
-  <updated>2026-07-28T02:48:44.000Z</updated>
+  <updated>2026-08-24T19:56:47.205Z</updated>
+  <entry>
+    <author>
+      <name>Ioker melon</name>
+    </author>
+    <category term="DEV_OTHER" scheme="https://iokermelon.com/categories/DEV-OTHER/"/>
+    <category term="vscode" scheme="https://iokermelon.com/tags/vscode/"/>
+    <category term="editor" scheme="https://iokermelon.com/tags/editor/"/>
+    <id>https://iokermelon.com/posts/VSCode-old-UI/</id>
+    <link href="https://iokermelon.com/posts/VSCode-old-UI/"/>
+    <published>2026-08-24T19:56:47.205Z</published>
+    <summary>VSCode更新了新版UI，但是我看不習慣，所以要把他改回去</summary>
+    <title>把VSCode改回原本的UI</title>
+    <updated>2026-08-24T19:56:47.205Z</updated>
+  </entry>
   <entry>
     <author>
       <name>Ioker melon</name>
