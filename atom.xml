@@ -11,7 +11,7 @@
   <rights>All rights reserved 2026, Ioker melon</rights>
   <subtitle>A limited life, immortalized in a commit.</subtitle>
   <title>Ioker's Blog</title>
-  <updated>2026-08-24T19:56:47.205Z</updated>
+  <updated>2026-08-24T21:34:06.979Z</updated>
   <entry>
     <author>
       <name>Ioker melon</name>
@@ -21,10 +21,27 @@
     <category term="editor" scheme="https://iokermelon.com/tags/editor/"/>
     <id>https://iokermelon.com/posts/VSCode-old-UI/</id>
     <link href="https://iokermelon.com/posts/VSCode-old-UI/"/>
-    <published>2026-08-24T19:56:47.205Z</published>
+    <published>2026-08-24T21:34:06.979Z</published>
     <summary>VSCode更新了新版UI，但是我看不習慣，所以要把他改回去</summary>
     <title>把VSCode改回原本的UI</title>
-    <updated>2026-08-24T19:56:47.205Z</updated>
+    <updated>2026-08-24T21:34:06.979Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>Ioker melon</name>
+    </author>
+    <category term="ios" scheme="https://iokermelon.com/categories/ios/"/>
+    <category term="jailbreak" scheme="https://iokermelon.com/categories/ios/jailbreak/"/>
+    <category term="Application" scheme="https://iokermelon.com/tags/Application/"/>
+    <category term="ios" scheme="https://iokermelon.com/tags/ios/"/>
+    <category term="jailbreak" scheme="https://iokermelon.com/tags/jailbreak/"/>
+    <category term="webkit" scheme="https://iokermelon.com/tags/webkit/"/>
+    <id>https://iokermelon.com/posts/reynard-browser/</id>
+    <link href="https://iokermelon.com/posts/reynard-browser/"/>
+    <published>2026-08-24T21:34:06.979Z</published>
+    <summary>這是一款由 Gecko（Firefox 相同核心）寫成的實驗性專案，因為有自己的渲染引擎所以可以解決 webkit 版本過老舊的問題。</summary>
+    <title>舊版webkit解決方法：Reynard Browser</title>
+    <updated>2026-08-24T21:34:06.979Z</updated>
   </entry>
   <entry>
     <author>
