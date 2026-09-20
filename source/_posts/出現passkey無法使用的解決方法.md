@@ -1,6 +1,6 @@
 ---
 date: 2026/09/21T03:46:20+08:00
-modified: 2026/08/13T11:58:32+08:00
+modified: 2026/09/21T05:18:24+08:00
 title: 出現passkey無法使用的解決方法
 share: true
 comments: true
@@ -12,7 +12,7 @@ tags:
   - todo
 categories:
   - ios
-cover: /images/
+cover: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZM9EpZKpcf_oQW-auJrb-wv_9fL_sIvtQNBAglVjgvqRzozMOxDc8u0o&s=10
 poster:
   headline: 出現passkey無法使用的解決方法
 description: Passkeys（台灣翻譯是通行密鑰） 是一種驗證方式。使用 Passkey 註冊後，會產生私鑰儲存於裝置的安全元件中，不但因為不用輸入密碼，所以加快了登入的速度。而安全性也有更好的保障，透過生物辨識驗證的保護，就算失竊也不會容易被破解。
