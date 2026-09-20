@@ -11,7 +11,7 @@
   <rights>All rights reserved 2026, Ioker melon</rights>
   <subtitle>A limited life, immortalized in a commit.</subtitle>
   <title>Ioker's Blog</title>
-  <updated>2026-08-24T21:34:06.979Z</updated>
+  <updated>2026-09-20T21:18:26.990Z</updated>
   <entry>
     <author>
       <name>Ioker melon</name>
@@ -21,10 +21,10 @@
     <category term="editor" scheme="https://iokermelon.com/tags/editor/"/>
     <id>https://iokermelon.com/posts/VSCode-old-UI/</id>
     <link href="https://iokermelon.com/posts/VSCode-old-UI/"/>
-    <published>2026-08-24T21:34:06.979Z</published>
+    <published>2026-09-20T21:18:26.990Z</published>
     <summary>VSCode更新了新版UI，但是我看不習慣，所以要把他改回去</summary>
     <title>把VSCode改回原本的UI</title>
-    <updated>2026-08-24T21:34:06.979Z</updated>
+    <updated>2026-09-20T21:18:26.990Z</updated>
   </entry>
   <entry>
     <author>
@@ -38,10 +38,27 @@
     <category term="webkit" scheme="https://iokermelon.com/tags/webkit/"/>
     <id>https://iokermelon.com/posts/reynard-browser/</id>
     <link href="https://iokermelon.com/posts/reynard-browser/"/>
-    <published>2026-08-24T21:34:06.979Z</published>
+    <published>2026-09-20T21:18:26.990Z</published>
     <summary>這是一款由 Gecko（Firefox 相同核心）寫成的實驗性專案，因為有自己的渲染引擎所以可以解決 webkit 版本過老舊的問題。</summary>
     <title>舊版webkit解決方法：Reynard Browser</title>
-    <updated>2026-08-24T21:34:06.979Z</updated>
+    <updated>2026-09-20T21:18:26.990Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>Ioker melon</name>
+    </author>
+    <category term="ios" scheme="https://iokermelon.com/categories/ios/"/>
+    <category term="ios" scheme="https://iokermelon.com/tags/ios/"/>
+    <category term="passkeys" scheme="https://iokermelon.com/tags/passkeys/"/>
+    <category term="macos" scheme="https://iokermelon.com/tags/macos/"/>
+    <category term="cybersec" scheme="https://iokermelon.com/tags/cybersec/"/>
+    <category term="todo" scheme="https://iokermelon.com/tags/todo/"/>
+    <id>https://iokermelon.com/posts/passkey-fix/</id>
+    <link href="https://iokermelon.com/posts/passkey-fix/"/>
+    <published>2026-09-20T21:18:26.990Z</published>
+    <summary>Passkeys（台灣翻譯是通行密鑰） 是一種驗證方式。使用 Passkey 註冊後，會產生私鑰儲存於裝置的安全元件中，不但因為不用輸入密碼，所以加快了登入的速度。而安全性也有更好的保障，透過生物辨識驗證的保護，就算失竊也不會容易被破解。</summary>
+    <title>出現passkey無法使用的解決方法</title>
+    <updated>2026-09-20T21:18:26.990Z</updated>
   </entry>
   <entry>
     <author>
