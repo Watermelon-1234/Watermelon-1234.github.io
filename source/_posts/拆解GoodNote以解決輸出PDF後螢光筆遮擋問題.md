@@ -1,6 +1,6 @@
 ---
 date: 2026/10/24T21:04:51+08:00
-modified: 2026/08/13T11:58:32+08:00
+modified: 2026/10/25T05:29:59+08:00
 title: 拆解GoodNote以解決輸出PDF後螢光筆遮擋問題
 share: true
 comments: true
