@@ -1,6 +1,6 @@
 ---
-date: 2026/08/25T03:16:53+08:00
-modified: 2026/08/25T03:56:30+08:00
+date: 2026/08/25 03:16:53+08:00
+modified: 2026/08/25 03:56:30+08:00
 title: 把VSCode改回原本的UI
 share: true
 comments: true
