@@ -11,7 +11,7 @@
   <rights>All rights reserved 2026, Ioker melon</rights>
   <subtitle>A limited life, immortalized in a commit.</subtitle>
   <title>Ioker's Blog</title>
-  <updated>2026-10-31T15:50:17.000Z</updated>
+  <updated>2026-11-04T20:04:26.000Z</updated>
   <entry>
     <author>
       <name>Ioker melon</name>
@@ -19,10 +19,27 @@
     <category term="language" scheme="https://iokermelon.com/categories/language/"/>
     <category term="русский" scheme="https://iokermelon.com/categories/language/%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9/"/>
     <category term="basic" scheme="https://iokermelon.com/categories/language/%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9/basic/"/>
-    <category term="clippings" scheme="https://iokermelon.com/tags/clippings/"/>
-    <category term="language" scheme="https://iokermelon.com/tags/language/"/>
     <category term="русский" scheme="https://iokermelon.com/tags/%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9/"/>
+    <category term="language" scheme="https://iokermelon.com/tags/language/"/>
     <category term="russian" scheme="https://iokermelon.com/tags/russian/"/>
+    <id>https://iokermelon.com/posts/russian-basic-sentence/</id>
+    <link href="https://iokermelon.com/posts/russian-basic-sentence/"/>
+    <published>2026-11-04T20:04:26.000Z</published>
+    <summary>俄文生活用詞</summary>
+    <title>俄文生活用詞</title>
+    <updated>2026-11-04T20:04:26.000Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>Ioker melon</name>
+    </author>
+    <category term="language" scheme="https://iokermelon.com/categories/language/"/>
+    <category term="русский" scheme="https://iokermelon.com/categories/language/%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9/"/>
+    <category term="basic" scheme="https://iokermelon.com/categories/language/%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9/basic/"/>
+    <category term="русский" scheme="https://iokermelon.com/tags/%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9/"/>
+    <category term="language" scheme="https://iokermelon.com/tags/language/"/>
+    <category term="russian" scheme="https://iokermelon.com/tags/russian/"/>
+    <category term="clippings" scheme="https://iokermelon.com/tags/clippings/"/>
     <id>https://iokermelon.com/posts/russian-alpabet/</id>
     <link href="https://iokermelon.com/posts/russian-alpabet/"/>
     <published>2026-10-31T15:50:17.000Z</published>
@@ -35,8 +52,8 @@
       <name>Ioker melon</name>
     </author>
     <category term="DEV_OTHER" scheme="https://iokermelon.com/categories/DEV-OTHER/"/>
-    <category term="Application" scheme="https://iokermelon.com/tags/Application/"/>
     <category term="ios" scheme="https://iokermelon.com/tags/ios/"/>
+    <category term="Application" scheme="https://iokermelon.com/tags/Application/"/>
     <category term="safe_money" scheme="https://iokermelon.com/tags/safe-money/"/>
     <id>https://iokermelon.com/posts/goodnote-PDF-fix/</id>
     <link href="https://iokermelon.com/posts/goodnote-PDF-fix/"/>
@@ -82,9 +99,9 @@
     </author>
     <category term="ios" scheme="https://iokermelon.com/categories/ios/"/>
     <category term="jailbreak" scheme="https://iokermelon.com/categories/ios/jailbreak/"/>
-    <category term="Application" scheme="https://iokermelon.com/tags/Application/"/>
     <category term="ios" scheme="https://iokermelon.com/tags/ios/"/>
     <category term="jailbreak" scheme="https://iokermelon.com/tags/jailbreak/"/>
+    <category term="Application" scheme="https://iokermelon.com/tags/Application/"/>
     <category term="webkit" scheme="https://iokermelon.com/tags/webkit/"/>
     <id>https://iokermelon.com/posts/reynard-browser/</id>
     <link href="https://iokermelon.com/posts/reynard-browser/"/>
