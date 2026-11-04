@@ -52,8 +52,8 @@
       <name>Ioker melon</name>
     </author>
     <category term="DEV_OTHER" scheme="https://iokermelon.com/categories/DEV-OTHER/"/>
-    <category term="ios" scheme="https://iokermelon.com/tags/ios/"/>
     <category term="Application" scheme="https://iokermelon.com/tags/Application/"/>
+    <category term="ios" scheme="https://iokermelon.com/tags/ios/"/>
     <category term="safe_money" scheme="https://iokermelon.com/tags/safe-money/"/>
     <id>https://iokermelon.com/posts/goodnote-PDF-fix/</id>
     <link href="https://iokermelon.com/posts/goodnote-PDF-fix/"/>
@@ -99,9 +99,9 @@
     </author>
     <category term="ios" scheme="https://iokermelon.com/categories/ios/"/>
     <category term="jailbreak" scheme="https://iokermelon.com/categories/ios/jailbreak/"/>
+    <category term="Application" scheme="https://iokermelon.com/tags/Application/"/>
     <category term="ios" scheme="https://iokermelon.com/tags/ios/"/>
     <category term="jailbreak" scheme="https://iokermelon.com/tags/jailbreak/"/>
-    <category term="Application" scheme="https://iokermelon.com/tags/Application/"/>
     <category term="webkit" scheme="https://iokermelon.com/tags/webkit/"/>
     <id>https://iokermelon.com/posts/reynard-browser/</id>
     <link href="https://iokermelon.com/posts/reynard-browser/"/>
